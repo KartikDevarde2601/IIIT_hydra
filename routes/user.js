@@ -4,7 +4,7 @@ const router = express.Router()
 //Handlers from controllers
 const {login, signup} = require("../controllers/auth")
 
-router.post('/login', login)
+router.post('/login',login)
 router.post('/signup', signup)
 
 
